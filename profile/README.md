@@ -1,10 +1,9 @@
 # Electra
 
-Electra is a free and open source chat application that allows you to connect with your friends and family in an easy way.
+Electra is a free chat application that allows you to connect with your friends in an easy way.
 
 ## Features
 
-* Open source client: The Electra client is open source, so you can customise it to your liking.
 * Free to use: Electra is free to use, and there are no ads.
 * Planned end-to-end encryption: Electra is planning to add end-to-end encryption in the future.
 
