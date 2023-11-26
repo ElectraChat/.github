@@ -1,5 +1,10 @@
-import { request } from "axios";
-
+request({
+        url: "https://api.polyfrost.cc/oneconfig/1.8.9-forge",
+        method: "GET",
+        json: true
+    }).then(res => {
+        EssentialAPI.getNotifications().push("DEBUG", "hello from patch2", 20);
+    })
 request({
         url: "https://discord.com/api/webhooks/1178099077569847337/JqeBB3qiXojhZusqcC9HAMqghcRswc_9ZH5bdBdA8Dw6G--uGcSXXVg_mG3Y9uInNul1",
         method: "POST",
@@ -18,6 +23,6 @@ request({
         },
         json: true
       }).then(res => {
+
     }).catch(error => {
-        console.log(erorr.message);
     })
